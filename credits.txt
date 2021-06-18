@@ -1,0 +1,6 @@
+Lex Talionis Engine and LT-Maker Editor created by rainlash
+
+With additional programming and help from the Lex Talionis Discord server, including TheeBill, Lord Tweed, ZessDynamite, Nemid, mag, Kyogokudo, KD, beccarte, JewrassicPark, and Greentwip.
+
+Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.
+

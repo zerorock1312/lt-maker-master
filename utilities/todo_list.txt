@@ -1,0 +1,74 @@
+# Features
+Combat Animations
+    Combat Anims / Palettes as a separate tab?
+    Combat Effects
+    Combat Palettes
+Overworld
+Base
+    Arena, *Repair (in market)*, Forge (optional), Bonus Exp / Skills, Support, Codex (World Map, Achievements, Tactics) 
+Unit Menu
+Joystick Remapping
+Translations need a better GUI interface
+Dialogue Log on R press
+Better method for frame speed for Map Animations
+Book pages frames with a number under them?
+Supports - Radiant Dawn Style (allow player to swap current support partner)
+
+# Polish
+UI framework
+    - Tile Info
+    - Unit Info
+    - Obj Info
+
+* Slight issue with footstep sounds: (*this may be covered under the "Better method for frame speed for Map Animations" note on the todo list)
+    * For Player-Controlled Units, movement sounds correctly play shorter or longer based on the Unit Speed setting, but if the Unit Speed is set very high, no footstep sound is played at all if the Unit moves leses than 4 spaces.  Some logic should be put in place to at least play the "half sound" for any amount of movement even if it doesn't reach the threshold to play or loop the "full" footstep sound.
+* 2 or 3 frame fade-in / fade-out for showing / hiding enemy ranges
+
+Get rid of on_add and on_remove in skill_system
+
+AI Skip Phase button
+
+# Release
+README
+Build into Executable guide -> Make sure Pyinstaller is installed
+
+Tutorial:
+    Event overview (what are the valid events) (triggers, unit, position, etc)
+        How do events work
+            Trigger
+            Condition Check
+        like on death, you can do unit.nid == 'prim' if prim died
+        Base events
+        Talk events
+        Death events
+        Fight quote events
+        Region events
+    How to set up basic region events (like Village, Shop, Chest, Escape)
+    Common tasks with conditions/conditionals
+        and, or, not
+        alive, dead, turncount, 
+        check_pair (fight quote), check_default
+        check_terrain
+        for units, nid, team, klass, position, generic, tags
+        game.get_units_in_party()
+        region stuff (region.nid == 'house')
+        game.level_vars.get('X', 0) / game.level_vars['X']
+        game.game_vars.get('X', 0)
+        line crossing
+        game.mode
+        game.units has all units in current level + all non-generic units ever loaded into the game
+        list comprehensions
+        game.get_enemy_units()
+        game.get_player_units()
+        len, sum, any, all
+        game.get_unit()
+        game.level.regions.get().contains()
+    Setting up Leadership stars
+    Battle Save
+    Breakable Walls
+    Supports
+    Summoning
+
+    Writing your own components
+    Item System Hooks
+    Skill System Hooks

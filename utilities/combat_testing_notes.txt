@@ -1,0 +1,13 @@
+# Combat Testing Regimen
+Weapon vs Weapon (Check)
+Weapon vs Spell (Check)
+Weapon vs No Weapon (Check)
+Vulnerary (Check)
+Spiritbane (Check)
+Angelic Robe (Check)
+Promotion Item (Check)
+Heal (Check)
+Wyrmsfire (Check)
+Warp (Check)
+Use Angelic Robe in Base/Prep (Check)
+Use Promotion Item in Base/Prep (Check)
